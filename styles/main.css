@@ -1,0 +1,84 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.whatever p {
+    background-color: red;
+}
+
+.text p {
+    background-color: blue;
+}
+
+.Iwant p {
+    background-color: yellow;
+}
+
+.gridThree {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.gridThree > .gridThree-paragraph {
+    background-color: blueviolet;
+}
+
+.gridThree > .gridThree-image {
+    background-color: black;
+}
+
+.gridThree > .gridThree-image img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour {
+    background-color: green;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#gridFour-id {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    background-color: gray;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#gridFive-id {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#gridFive-id img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+}
+
+.gridSix p {
+    font-family: 'Font Awesome\ 5 Free', sans-serif;
+    font-size: small;
+}
